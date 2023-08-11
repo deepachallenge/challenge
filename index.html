@@ -1,9 +1,36 @@
-<html>
-<head></head>
+</html>
+<head>
+  <meta charset="utf-8">
+  <title>Set up Meetings using Watson Assistant</title></meta>
+  <style>
+
+body {
+  background-color: #faf2e4;
+  margin: 0 15%;
+  font-family: sans-serif;
+  }
+
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #57b1dc;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #d1633c;
+  font-size: 1em;
+}
+
+</style>
+</head>
+
 <body>
-    <title>My Test Page</title>
-    <p>The body of my page.</p>
-    &lt;<script>
+<h1><img src="icon-256x256.png" alt="Meeting"></h1>
+Set up your Meetings . Say "Hi" to Watson
+<script>
   window.watsonAssistantChatOptions = {
     integrationID: "3e5683c7-9056-43f7-b10c-ed28f7e405ed", // The ID of this integration.
     region: "jp-tok", // The region your integration is hosted in.
@@ -17,5 +44,6 @@
   });
 </script>
 
-    </body>
+</body>
+
 </html>
